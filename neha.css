@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.wallpaper{
+    height:100vh;
+    width: 100%;
+    background-color: #101010;
+    background-position: center;
+    background-size: cover;
+    }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: blue;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+   
+}
+span{
+    color: brown;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:darkcyan;
+    transition: 4s;
+}
+.button{
+    background-color:darkblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.button:hover{
+    transform: scale(1.2);
+}
+.mine{
+    position:absolute;
+    top: 50%;
+    right: 35%;
+    transform: translateY(-50%);
+}
+h1{
+    
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.mine form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.mine form input:first-child{
+    display: inline-block;
+    width:100%;
+    padding: 14px 100px 14px 15px;
+    border: 2px solid;
+    outline: none;
+    border-radius: 30px;
+}
+.mine form input:last-child{
+    position:absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0px 0px 5px black 0px 0px 15px crimson;
+    top:6px;
+    right: 6px;
+}
+.wall{
+    height:100vh;
+    width: 100%;
+    background-color:#191919;
+    background-position: center;
+    background-size: cover;
+}
+.wall img{
+    padding: 50px 50px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+.about{
+    width: 550px;
+    height: auto;
+    margin: 0 auto;
+    color: aliceblue;
+    align-items: center;
+    margin-left: 650px;
+    align-self: center;
+    margin-top: -560px;
+}
+.about h2{
+    font-size: 75px;
+
+}
+.about h5{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.about p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+
+}
+.about button{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    border-radius: 30px;
+    transition: .4s;
+}
+.about button:hover{
+    background-color: transparent;
+    border: 2px solid purple ;
+    cursor: pointer;
+}
+.wall1{
+    height:120vh;
+    width: 100%;
+    background-color:rgb(145, 153, 156);
+    background-position: center;
+    background-size: cover;
+}
+.wall1 h2{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.wall1 h2{
+    color: white;
+    font-size: 75px;
+    width: 1350px;
+    margin: auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+        height: 390px;
+        width: 365px;
+        padding: 20px 35px;
+        background: #191919;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+}
+.body{
+    display: flex;
+    margin-left: 80px;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: crimson;
+}
+.card h5{
+    color: #fcfcfc;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.card p{
+    color:#fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid purple ;
+    cursor: pointer;
+}
+.contact{
+    width:100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact .button-two{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact .button-two:hover{
+    background-color: transparent;
+    border: 2px solid purple ;
+    cursor: pointer;
+}
+footer{
+    position:relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color:white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: #ffff;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:crimson;
+    margin: 25px 10px;
+    border-radius: 20px;
+    color: #fcfc;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .4s;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
